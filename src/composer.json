@@ -1,0 +1,19 @@
+{
+    "name": "antenor/src",
+    "description": "Rotinas de Backups e Gerenciamento de Logs",
+    "authors": [
+        {
+            "name": "Antenor Pires",
+            "email": "antenorpires.6@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "api\\" : "api"
+        },
+        "files": [
+            "config.php"
+        ]
+    },
+    "require": {}
+}

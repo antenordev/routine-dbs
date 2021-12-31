@@ -1,10 +1,10 @@
 ﻿<?php //http://rberaldo.com.br/como-gerar-logs-execucao-php/
-    function logMsg($level='info',$msg,$file='log.txt') 
+    function logMsg($level='info',$msg,$file='_save/log.txt')
     {
          // variÃ¡vel que vai armazenar o nÃ­vel do log (INFO, WARNING ou ERROR)
         $levelStr="";
          // verifica o nÃ­vel do log
-        switch($level) 
+        switch($level)
         {
             // nÃ­vel de informaÃ§Ã£o
             case'info':$levelStr='INFO';break;
